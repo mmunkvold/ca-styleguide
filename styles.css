@@ -693,4 +693,8 @@ blockquote {
   .spec-box-menu {
     max-width: 200px;
   }
+
+  pre {
+    width: 100%;
+  }
 }
