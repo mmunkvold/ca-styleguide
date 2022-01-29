@@ -29,9 +29,7 @@ body {
   --grey-color: #666666;
   --medium-grey-color: #c0bdbd;
   --light-grey-color: rgb(237, 237, 237);
-  /*  --ff-h: "Fauna One", serif; */
   --ff-h: "Playfair Display", serif;
-  /*  --ff-p: "Playfair Display", serif; */
   --ff-p: "Fauna One", serif;
   --fs-h1: 3rem;
   --fs-h2: 2rem;
@@ -43,20 +41,19 @@ body {
 }
 
 body {
-  display: flex; /* Sticky footer */
-  flex-direction: column; /* Sticky footer */
-  min-height: 100vh; /* Sticky footer */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background: var(--body-bg);
   font-family: var(--ff-p);
   font-size: var(--fs-body);
   color: var(--primary-color);
   line-height: 1.6;
-  /* padding: 2em; */
 }
 
 img {
   max-width: 100%;
-  display: block; /* this may cause problems, so turn it off in that case */
+  display: block;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -65,7 +62,6 @@ button,
 input,
 textarea,
 select {
-  /* This to have all these have the same font-settings as set for the body so you don't need to set it all the time */
   font: inherit;
 }
 
@@ -118,7 +114,6 @@ h4,
   height: 100%;
   margin-top: 2em;
   padding: 0 1em 1em;
-  /* border: 1px solid var(--primary-color); */
 }
 
 .flex-item-style {
@@ -145,7 +140,6 @@ h4,
   display: grid;
   grid-template-columns: 1fr;
   gap: 1em;
-  /* border: 1px solid var(--primary-color); */
   margin-bottom: 4em;
 }
 
@@ -159,9 +153,6 @@ ul {
   padding-left: 1em;
 }
 
-/* FLEXBOX, GRIDS, FORMS and FONTS for show
-   on the layout/typography page
------------------------------------------ */
 /* FORM */
 input,
 textarea {
@@ -181,6 +172,7 @@ textarea {
   font-size: small;
   color: var(--secondary-color);
 }
+
 /* FONTS */
 
 .h1,
@@ -206,8 +198,7 @@ textarea {
   font-size: var(--fs-h4);
 }
 
-/* BOXES, COLORS, BUTTONS and LINKS for show
-   on the components page
+/* Components
 ----------------------------------------- */
 
 .spec-box {
@@ -465,13 +456,6 @@ a:focus {
   outline-offset: 10px;
 }
 
-/* .current {
-  text-transform: lowercase;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  color: var(--link-color);
-} */
-
 /* NAVIGATION
 ------------------------------------*/
 
@@ -483,7 +467,6 @@ a:focus {
 }
 
 .navbar-container {
-  /* Maybe change this to flex container */
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
@@ -672,8 +655,7 @@ blockquote {
     color: white;
     text-align: left;
     background: var(--medium-primary-color);
-    overflow-y: scroll;
-    min-height: 100%; /* This doesn't work, but need it to go all the way down */
+    min-height: 100%;
   }
 
   #search {
@@ -700,8 +682,8 @@ blockquote {
   }
 
   .main-content {
-    max-width: 65ch;
-    margin: 3em 0 0 17rem;
+    max-width: 70ch;
+    margin: 4em 0 0 17rem;
   }
 
   .spec-box-menu {
