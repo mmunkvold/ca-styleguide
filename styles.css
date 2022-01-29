@@ -638,6 +638,10 @@ blockquote {
   .main-content {
     max-width: 55ch;
   }
+
+  pre {
+    width: 60%;
+  }
 }
 
 @media (min-width: 1000px) {
