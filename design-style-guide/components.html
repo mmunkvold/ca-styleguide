@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display:wght@500&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/ff8ec4a7db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Design Style Guide for Snow Fun!</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="navbar-wrapper">
+        <nav class="navbar" id="navbar">
+          <a href="index.html"><img class="logo" src="img/logo/logo_blue.png" alt="Snow Fun" /></a>
+
+          <div class="navbar-container">
+            <ul class="navbar-nav" id="navbar-nav">
+              <a href="guidelines.html" class="bold uppercase nav-link">Guidelines</a>
+              <li class="nav-item"><a class="nav-link" href="/guidelines.html#brand_personality">Brand Personality</a></li>
+              <li class="nav-item"><a class="nav-link" href="/guidelines.html#target_audience">Target Audience</a></li>
+              <li class="nav-item"><a class="nav-link" href="/guidelines.html#voice_and_tone">Voice and Tone</a></li>
+              <hr />
+              <a href="layout.html" class="bold uppercase nav-link">Layout</a>
+              <li class="nav-item"><a class="nav-link" href="/layout.html#grids">Grids and columns</a></li>
+              <li class="nav-item"><a class="nav-link" href="/layout.html#forms">Forms</a></li>
+              <hr />
+              <a href="typography.html" class="bold uppercase nav-link">Typography</a>
+              <li class="nav-item"><a class="nav-link" href="/typography.html#fonts">Fonts</a></li>
+              <hr />
+              <a href="colors.html" class="bold uppercase nav-link">Colors</a>
+              <li class="nav-item"><a class="nav-link" href="/colors.html#colors">Colors</a></li>
+              <hr />
+              <a href="components.html" class="bold uppercase nav-link">Components</a>
+              <li class="nav-item"><a class="nav-link" href="/components.html#logo">Logo</a></li>
+              <li class="nav-item"><a class="nav-link" href="/components.html#interactive_features">Interactive Features</a></li>
+              <li class="nav-item"><a class="nav-link" href="/components.html#graphics">Graphics and Icons</a></li>
+              <li class="nav-item"><a class="nav-link" href="/components.html#media">Media: Images and Videos</a></li>
+              <hr />
+              <div class="spec-box spec-box-menu">
+                <p>This guide is far from complete. But it's a start.</p>
+              </div>
+            </ul>
+            <button class="navbar-toggle" id="navbar-toggle">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                .
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </button>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main-content">
+        <h1>Components</h1>
+        <p>Here are different website components.</p>
+        <h2 id="logo">Logo</h2>
+        <p>
+          Logo is what makes a company stand out visually against competitors. The logo and correct use of logo, is very important in brand building
+          and promotion.
+        </p>
+        <img src="img/logo/logo_blue-inverted.png" alt="" />
+        <div class="spec-box">
+          <h3>Specifications on use</h3>
+          <p class="bold">Placement:</p>
+          <p>Top left corner on navigation bar, desktop size. Centered on ipad/mobile size.</p>
+          <p class="bold">Margin:</p>
+          <p>There should be enough space around the logo, minimum 1em on each side. Best practise is 1em on the sides, 2em top and bottom.</p>
+          <p class="bold">Size:</p>
+          <p>200px in navigation menus. If bigger is needed: max 250px. Smallest size: 150px.</p>
+          <p class="bold">Colors:</p>
+          <p>
+            The main logo is made in two versions, depending on the background - white text or blue text. It also comes in a black version for when
+            that is needed. <strong>No other color combinations allowed.</strong>
+          </p>
+        </div>
+        <h3>Different Color Combinations:</h3>
+        <div class="grid-container">
+          <div class="flex-item">
+            <img src="img/logo/logo_blue.png" alt="" />
+            <p class="bold">White Text on Primary Medium Background</p>
+            <p class="bold">When to use:</p>
+            <p>This is used when there is a colored background. Preferably primary medium as background color.</p>
+          </div>
+          <div class="flex-item">
+            <img src="img/logo/logo_black.png" alt="" />
+            <p class="bold">White Text on Black Background</p>
+            <p class="bold">When to use:</p>
+            <p>When there is need for having black/white color scheme only.</p>
+          </div>
+          <div class="flex-item">
+            <img src="img/logo/logo_black-inverted.png" alt="" />
+            <p class="bold">Black Text on White Background</p>
+            <p class="bold">When to use:</p>
+            <p>When need of black/white color scheme.</p>
+          </div>
+        </div>
+        <hr />
+        <h2 id="interactive_features">Interactive Features</h2>
+        <p>
+          Interactive features are there not only to look cool. They can enhance something you want to have stand out, or to get noticed. Interactive
+          features also engages your visitor.
+        </p>
+        <p class="spec-box">Be sure to NOT overuse these features!</p>
+        <h3>Hover effect on cards</h3>
+        <div class="grid-container">
+          <div class="card">
+            <p class="bold">HOVER ME!</p>
+            <p>This is a card with some text to show the hover effect we can use on cards</p>
+          </div>
+          <div class="card">
+            <img class="card-img" src="img/photos/mountain-top.jpg" alt="" />
+            <p class="bold">HOVER ME!</p>
+            <p>This is a card with some text and an image to show the hover effect we can use on cards</p>
+          </div>
+          <div>
+            <img class="card card-img" src="img/photos/inthewoods.jpg" alt="" />
+            <p class="bold">HOVER IMAGE!</p>
+            <p>Image with card hover effect. NB! This is NOT to be used on every image. See "Media".</p>
+          </div>
+        </div>
+        <h3 id="buttons_links">Buttons and Links</h3>
+        <div class="spec-box">
+          <p>Be sure to know the difference between a <span class="italic">button</span> and a <span class="italic">link!</span></p>
+          <p>A button <span class="bold">does</span> something, while a link <span class="bold">takes you somewhere.</span></p>
+        </div>
+        <h4 id="button">Buttons</h4>
+        <p>This is how the two primary buttons look and behave live:</p>
+        <button class="btn">Click me!</button>
+        <button class="btn btn-secondary">Click me!</button>
+        <p>CSS code for all buttons:</p>
+        <pre>
+          <code>
+          button { 
+            border: unset; 
+            box-shadow: 0px 2px 2px -2px #666; 
+            padding: 0.3em 0.5em; 
+            text-transform: lowercase; 
+            cursor: pointer; 
+          }
+          </code>
+        </pre>
+        <span class="bold big-txt">Primary Button</span>
+        <div class="grid-container">
+          <div class="flex-item">
+            <p class="bold">Neutral state</p>
+            <button class="neutral-btn">Click me!</button>
+          </div>
+          <div class="flex-item">
+            <p class="bold">Hover state</p>
+            <button class="hover-btn">Click me!</button>
+          </div>
+          <div class="flex-item">
+            <p class="bold">Focus state</p>
+            <button class="focus-btn">Click me!</button>
+          </div>
+        </div>
+        <pre>
+          <code>
+            .neutral-btn {
+              color: white;
+              background: #01539c;
+            }
+            
+            .hover-btn {
+              color: #01539c;
+              background: transparent;
+              border: 2px solid #01539c;
+            }
+            
+            .focus-btn {
+              color: #01539c;
+              background: transparent;
+              border: 2px solid #01539c;
+              outline: 2px dashed #01539c;
+              outline-offset: 10px;
+            }
+          </code>
+        </pre>
+        <span class="bold big-txt">Secondary Button</span>
+        <div class="grid-container">
+          <div class="flex-item">
+            <p class="bold">Neutral state</p>
+            <button class="neutral-btn-secondary">Click me!</button>
+          </div>
+          <div class="flex-item">
+            <p class="bold">Hover state</p>
+            <button class="hover-btn-secondary">Click me!</button>
+          </div>
+          <div class="flex-item">
+            <p class="bold">Focus state</p>
+            <button class="focus-btn-secondary">Click me!</button>
+          </div>
+        </div>
+        <pre>
+          <code>
+            .neutral-btn-secondary {
+              color: #fff;
+              background: #ce2c03;
+            }
+            
+            .hover-btn-secondary {
+              color: #ce2c03;
+              background: transparent;
+              border: 2px solid #ce2c03;
+            }
+            
+            .focus-btn-secondary {
+              color: #ce2c03;
+              background: transparent;
+              border: 2px solid #ce2c03;
+              outline: 2px dashed #ce2c03;
+              outline-offset: 10px;
+              border-radius: unset;
+            }
+          </code>
+        </pre>
+        <h4>Links</h4>
+        <p>CSS code for all links:</p>
+        <pre>
+          <code>
+            a {
+              text-decoration: underline;
+              color: #731813;
+              cursor: pointer;
+            }
+            
+            a:hover,
+            a:focus {
+              text-transform: uppercase;
+            }
+            
+            a:focus {
+              outline: 2px dashed #731813;
+              outline-offset: 10px;
+            }
+          </code>
+        </pre>
+        <span class="bold big-txt">Links in navigation</span>
+        <div class="grid-container">
+          <div class="flex-item flex-item-bg-primary">
+            <p class="bold">Neutral state</p>
+            <p id="neutral-link-nav">I am a link</p>
+          </div>
+          <div class="flex-item flex-item-bg-primary">
+            <p class="bold">Hover state</p>
+            <p id="hover-link-nav">I am a link</p>
+          </div>
+          <div class="flex-item flex-item-bg-primary">
+            <p class="bold">Focus state</p>
+            <p id="focus-link-nav">I am a link</p>
+          </div>
+        </div>
+        <pre>
+          <code>
+            #neutral-link-nav {
+              text-decoration: none;
+              color: #fff;
+              line-height: 1.15;
+            }
+            
+            #hover-link-nav {
+              background-color: #fff;
+              padding: 0.5em;
+              text-transform: uppercase;
+              border-radius: 50px;
+              color: #731813;
+            }
+            
+            #focus-link-nav {
+              background-color: #fff;
+              padding: 0.5em;
+              text-transform: uppercase;
+              border-radius: 50px;
+              color: #731813;
+              outline: 2px dashed #731813;
+              outline-offset: 10px;
+            }
+          </code>
+        </pre>
+        <span class="bold big-txt">Links in text</span>
+        <p>If you have a link in text, this is how it would look like. Now, <a href="#">this is a link that goes nowhere.</a></p>
+        <div class="grid-container">
+          <div class="flex-item">
+            <p class="bold">Neutral state</p>
+            <span id="neutral-link-txt">I am a link</span>
+          </div>
+          <div class="flex-item">
+            <p class="bold">Hover state</p>
+            <p id="hover-link-txt">I am a link</p>
+          </div>
+          <div class="flex-item">
+            <p class="bold">Focus state</p>
+            <p id="focus-link-txt">I am a link</p>
+          </div>
+        </div>
+        <pre>
+          <code>
+            #neutral-link-txt {
+             (same code as for a above the grid)
+            }
+            
+            #hover-link-txt {
+              (same code as for a:hover above the grid)
+              text-transform: uppercase;
+            }
+            
+            #focus-link-txt {
+              (same code as for a:focus above the grid)
+              text-transform: uppercase;
+              border-radius: 50px;
+            }
+          </code>
+        </pre>
+        <hr />
+        <h2 id="graphics">Graphics and Icons</h2>
+        <div class="spec-box">
+          <p>Graphics and Icons used on the webpage should accompany text and not be used only for decoration.</p>
+          <p>
+            Icons and Social Media Icons should all follow the same design style when it comes to shape, size and color. This is decided by the
+            accompanying text content. Icons standing by themselves will also follow nearby text in the same context.
+          </p>
+        </div>
+        <h3 id="icons">Icons</h3>
+        <p class="spec-box">Fontawesome Icons in this form. Color primary. Sizes aligned with the font size used in context.</p>
+        <div class="grid-container">
+          <div class="flex-item">
+            <i class="fas fa-skiing"></i>
+          </div>
+          <div class="flex-item">
+            <i class="fas fa-skiing-nordic"></i>
+          </div>
+          <div class="flex-item">
+            <i class="fas fa-utensils"></i>
+          </div>
+        </div>
+        <h3>Social Media Icons</h3>
+        <p class="spec-box">
+          Social Media Icons are to be placed in the footer area, right side. As the footer's color is primary, the icons are to be used in white
+          color. Font size 3em.
+        </p>
+        <div class="grid-container">
+          <div class="flex-item flex-item-bg-primary">
+            <i class="fab fa-twitter-square"></i>
+          </div>
+          <div class="flex-item flex-item-bg-primary">
+            <i class="fab fa-facebook-square"></i>
+          </div>
+          <div class="flex-item flex-item-bg-primary">
+            <i class="fab fa-instagram-square"></i>
+          </div>
+        </div>
+        <hr />
+        <h2 id="media">Media: Image and Video</h2>
+        <div class="spec-box">
+          <p class="bold">The most important thing to think about here is correct file type, low enough file size and big enough resolution.</p>
+          <p>Correct choice of content/what you see in the image is of course also important.</p>
+          <p class="bold">File size:</p>
+          <p>Image: max 200kb.</p>
+          <p>
+            Video: Depends on content and use. Contact your team lead designer for specifics in each case. (This will be decided upon and put in this
+            style guide.)
+          </p>
+          <p class="bold">File type:</p>
+          <p>Image: jpg.</p>
+          <p>Video: mp4</p>
+        </div>
+        <div class="grid-container">
+          <div class="flex-item">
+            <img src="img/photos/snowbiking.jpg" alt="" />
+            <p class="bold">Portrait</p>
+            <p>Min-width: 200px</p>
+            <p>Max-width: 350px</p>
+            <p>Border: none</p>
+            <p>Shadow: 0px 2px 2px -2px #666</p>
+            <p>Focus: Activity</p>
+            <p class="bold">Don't:</p>
+            <ul>
+              <li>Use stock photos</li>
+              <li>Create effects other than box-shadow</li>
+            </ul>
+          </div>
+          <div class="flex-item">
+            <img src="img/photos/slalom.jpg" alt="" />
+            <p class="bold">Landscape</p>
+            <p>Min-width: 200px</p>
+            <p>Max-width: 500px</p>
+            <p>Border: none</p>
+            <p>Shadow: 0px 2px 2px -2px #666</p>
+            <p>Focus: Activity</p>
+            <p class="bold">Don't:</p>
+            <ul>
+              <li>Use stock photos</li>
+              <li>Create effects other than box-shadow</li>
+            </ul>
+          </div>
+          <div class="flex-item">
+            <img src="img/photos/ex_video.png" alt="" />
+            <p class="bold">Video</p>
+            <p>Width: 500px</p>
+            <p>Border: none</p>
+            <p>Shadow: 0px 2px 2px -2px #666</p>
+            <p>Controls for starting, stopping and volum, along with settings and the option to view expanded, are added on every video.</p>
+            <p class="bold">Don't:</p>
+            <ul>
+              <li>Use autoplay!</li>
+              <li>Use stock videos</li>
+            </ul>
+            <p></p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <p>Design Style Guide for Snow Fun! Website</p>
+      <a href="index.html" class="copyright nav-link">© 2022 Snow Fun!</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
